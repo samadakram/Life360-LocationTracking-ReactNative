@@ -36,7 +36,7 @@ const FadeInView = (props,{ navigation }) => {
         <View style={{flex:1,position:'relative',width:350,height:350,justifyContent:'center',alignItems:'center'}}>
         <TouchableOpacity style={styles.Getstarted}
      onPress={() => navigation.navigate('Login')}>
-        <Text style={styles.Getstartedtext}>GetStarted...</Text> 
+        <Text style={styles.Getstartedtext}>Get Started</Text> 
       </TouchableOpacity>
       </View>
          </View>

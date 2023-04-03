@@ -25,11 +25,11 @@ export default function Tabs() {
             <Ionicons name={focused ? "location-sharp" : "location-outline"} color={'#9400D3'} size={26} />
           ),
         }} />
-        <Tab.Screen name="Setting" component={Setting}
+        <Tab.Screen name="History" component={Setting}
          options={{
-          tabBarLabel: 'Setting',
+          tabBarLabel: 'History',
           tabBarIcon: ({  focused }) => (
-            <Ionicons name={focused ? "settings" : "settings-outline"} color={'#9400D3'} size={26} />
+            <Ionicons name={focused ? "arrow-back-circle" : "arrow-back-circle-outline"} color={'#9400D3'} size={26} />
           ),
         }}
          />
